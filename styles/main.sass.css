@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  margin: 3em 3em; }
+
+.main {
+  background-color: white;
+  padding: 2.1em 1.5em;
+  font-family: sans-serif; }
+
+.error {
+  color: red; }
+
+.contact-us {
+  padding-bottom: .7em;
+  font-size: 1.5em;
+  font-weight: bold; }
+
+.input {
+  width: 100%;
+  height: 2.5em;
+  margin: .5em 0;
+  border-left: .5em solid black;
+  padding-left: 1em; }
+
+.inputTextArea {
+  height: 14em;
+  width: 100%;
+  margin: .5em 0;
+  border-left: .5em solid black; }
+
+.submit {
+  height: 3.2em;
+  color: white;
+  background-color: black;
+  font-size: 1.1em;
+  width: 8em; }
+
+.submit:hover {
+  background: #88C470;
+  transition: .5s ease-in; }
+
+#success {
+  display: none;
+  background-color: white;
+  padding: 2.1em 1.5em;
+  font-family: sans-serif; }
+
+@media screen and (min-width: 48em) {
+  body {
+    margin: 3em 20%; } }
